@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Checkpoint 2 - HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1> Minha Página HTML </h1>
+    </header>
+    <p>Aprendendo a criar uma página web básica</p>
+
+    <ul>
+        <li> HTML </li>
+        <li> CSS </li>
+        <li> Java Script</li>
+    </ul>
+
+    <a href="https://ge.globo.com/futebol/times/sao-paulo/"><h4>VISITE A PARTE DO SÃO PAULO FC NO GE</h4></a>
+    
+    <img src="spfc.png" alt="Símbolo do São Paulo Futebol Clube">
+    
+    <hr>
+
+    <h6> Table: eu esqueci como faz<br>
+         Formulário: eu perdi o arquivo da aula</h6>
+    
+    <hr>
+
+    <h2> JavaScript </h2>
+
+    <h3>IDADE</h3>
+    <button onclick="dados()">PARA COMEÇAR CLIQUE AQUI</button>
+    <script>
+        function dados(){
+            nome = "Gabriel Sá" 
+            idade = 18
+            alert("Este é o meu nome: " + nome +"/"+ "Essa é a minha idade: " + idade)
+        }
+    </script>
+
+    <h3>SOMA</h3>
+    <button onclick="soma()">PARA COMEÇAR CLIQUE AQUI</button>
+    <script>
+        function soma(){
+            val1 = 10
+            val2 = 20
+            
+            let somar = parseInt(val1) + parseInt(val2)
+
+            alert("Essa é a soma dos valores: " + somar)
+        }
+    </script>
+</body>
+</html>
